@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-nav {
+    color: #fff!important;
+    background-color: #000;
+}
+
+.banner{
+    height: 100vh;
+    position: relative;
+}
+
+.banner img{
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+}
+
+.banner-title{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 5%;
+    width: 40%;
+
+}
+
+
+.search {
+    text-align: center;
+    background-color: #000;
+}
+
+.search input{
+    width: 30%;
+    padding: 5px 10px;
+    background-color: black;
+    color: lightgray;
+    border: 1px solid rgb(60, 60, 250);
+}
+
+.bottom-nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline: 40rem;
+    background-color: #000;
+    padding-block: 20px;
+    color: #fff;
+}
+
+.time-for .content{
+    background-color: lightgray;
+    width: 100%;
+    opacity: 50%;
+}
+
+.card-btn:hover{
+    background-color: brown;
+}
+
+.swim-season{
+    background-color: lightsalmon;
+}
+
+.overbox{
+    background-color: bisque;
+    width: 100vw;
+    height: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 40%;
+    z-index: 0;
+}
+
+.single-card:hover{
+    border-color: brown;
+}
